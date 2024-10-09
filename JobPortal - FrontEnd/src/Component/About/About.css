@@ -1,0 +1,112 @@
+/* Global font setting for the About Us component */
+.about-us-container {
+    font-family: 'Roboto', sans-serif; /* Clean, modern font */
+    padding: 3em;
+    background-color: #6ea1d4; /* Light gray background */
+    min-height: 100vh;
+    color: #333; /* Consistent dark color for text */
+    text-align: center; /* Center all text in the container */
+    margin-top: 50px;
+    border-radius: 30px;
+    display: flex;
+}
+
+/* Header styling */
+.about-us-header {
+    margin-bottom: 2em;
+    font-weight: bold;
+    color: #2c3e50; /* Darker color for header text */
+    font-size: 2.5em;
+}
+
+/* Segment styling for individual sections */
+.about-us-segment{
+    background-color: #c9dff5; /* White background for segments */
+    border-radius: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 2.5em;
+    margin-bottom: 2em; /* Space between segments */
+
+}
+
+/* Sub-header styling within each segment */
+.about-us-segment h2 {
+    color: #014420; /* Primary color for sub-headers */
+    margin-bottom: 0.5em;
+    font-size: 1.8em;
+}
+
+/* Paragraph text styling */
+.about-us-segment p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    font-size: 15px;
+    color: #000000; /* Medium gray for paragraph text */
+}
+
+/* Custom list styling */
+.custom-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center items horizontally */
+}
+
+/* Individual list item styling */
+.custom-list .item {
+    margin: 0.5em 0; /* Space between list items */
+    font-size: 1.2em; /* Set font size for the list items */
+    color: #333; /* Text color */
+    display: flex; /* Use flexbox for the bullet and text */
+    align-items: center; /* Center the bullet with the text */
+}
+
+/* Custom bullet points */
+.custom-list .item:before {
+    content: '•'; /* Custom bullet point */
+    font-size: 1.5em; /* Increase bullet size */
+    margin-right: 0.5em; /* Space between bullet and text */
+    color: #777; /* Bullet point color */
+}
+
+/* Styling for blockquote (Testimonials) */
+blockquote {
+    font-style: italic;
+    color: #444;
+    border-left: 4px solid #007bff;
+    padding-left: 1em;
+    margin: 1.5em 0;
+}
+
+/* Responsive design adjustments */
+@media only screen and (max-width: 768px) {
+    .about-us-container {
+        padding: 1.5em;
+    }
+
+    .about-us-segment {
+        padding: 1.5em;
+    }
+
+    .about-us-header {
+        font-size: 2em;
+    }
+
+    .about-us-segment h2 {
+        font-size: 1.5em;
+    }
+
+    .about-us-segment p {
+        font-size: 1em;
+}
+}
+
+.about-us-container .about-us-segment {
+    background-color: #c9dff5; /* White background for segments */
+    border-radius: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 2.5em;
+    margin-bottom: 2em; /* Space between segments */
+}

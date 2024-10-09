@@ -1,0 +1,100 @@
+.view-application-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .job-applications {
+    background: #6ea1d4;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-applications h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .applications-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .applications-table th,
+  .applications-table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .applications-table th {
+    background: #e3ebf3;
+  }
+  
+  .applications-table tr:nth-child(even) {
+    background: #e3ebf3;
+  }
+  
+  .applications-table select {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background: #fff;
+  }
+  
+  .applications-table button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background: #003366;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .applications-table button:hover {
+    background: #008000;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .card-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-actions select,
+  .card-actions button {
+    margin-top: 10px;
+  }
+  

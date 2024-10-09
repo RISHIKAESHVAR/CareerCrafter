@@ -1,0 +1,244 @@
+.homepage-container {
+    background-color: #ddeeff;
+    padding: 20px;
+}
+
+
+.home-hero-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #2e6fb0;
+    border-radius: 40px;
+    color: white;
+   
+}
+
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.search-input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid rgb(225, 236, 239);
+    border-radius: 5px;
+}
+
+
+.search-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: #003366;
+    color: rgb(225, 236, 239);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.search-button:hover{
+    background-color: #008000;
+   
+}
+
+
+.vision {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif; /* Updated to use Roboto font */
+    background-color: #6ea1d4;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+
+.carousel-section, .categories-section, .companies, .reviews {
+    padding: 50px 0;
+}
+
+
+.categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.category-card {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+.company-logo-container {
+    text-align: center;
+    padding: 25px;
+}
+
+
+.company-logo {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+
+.company-info {
+    margin-top: 10px;
+    font-size: medium;
+}
+
+
+.review-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2e6fb0;
+    padding-top : 25px;
+    border-radius: 100px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+.review-img-container {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+}
+
+
+.review-img {
+    border-radius: 50%;
+    max-width: 1000px;
+    margin-bottom: 50px;
+}
+
+
+.centered-heading {
+    text-align: center; /* Centers the heading text */
+    margin-bottom: 20px; /* Optional: adds some space below the heading */
+    font-weight: bold
+   
+}
+
+
+.review-text {
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+}
+
+
+.review-author {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+
+.footer {
+    margin-top: 50px;
+    color: white;
+}
+
+
+.carousel-section {
+    padding: 20px; /* Optional: Adds some space around the carousel section */
+   
+}
+
+
+.home-job-card {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    border: 5px solid #003366 !important;
+    border-radius: 100px !important; /* Slightly less round for a better look */
+    padding: 20px !important;
+    margin: 0 15px !important; /* Horizontal margin to create space between cards */
+    background-color: #c9dff5 !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+    width: 300px; /* Set a fixed width for the cards */
+    height: auto; /* Allow height to adjust based on content */
+}
+.carousel-section {
+    padding: 20px;
+    width: 100%;
+}
+
+.slick-slide {
+    display: inline-block; /* Ensure each slide is treated individually */
+}
+
+
+.home-job-title {
+    font-size: 28px; /* Size of job title */
+    margin-bottom: 10px; /* Space below the job title */
+}
+
+
+.home-company-name{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.home-job-description,
+.home-job-location {
+    margin-bottom: 0px; /* Space between elements */
+    color: rgb(0, 0, 0); /* Optional: Color for company name and descriptions */
+    font-size: 20px;
+}
+
+
+.home-apply-button {
+    background-color: #003366; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 5px; /* Rounds the corners of the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background change on hover */
+}
+
+
+.home-apply-button:hover {
+    background-color: #008000; /* Darker shade on hover */
+}
+
+
+.home-login-button{
+    background-color: #003366; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 5px; /* Rounds the corners of the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background change on hover */
+}
+
+
+.home-login-button:hover {
+    background-color: #008000; /* Darker shade on hover */
+}
+
+
+.home-login-prompt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh; /* Full viewport height to center vertically */
+    text-align: center;
+}

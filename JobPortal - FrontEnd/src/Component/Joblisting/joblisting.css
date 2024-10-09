@@ -1,0 +1,125 @@
+.job-listing-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .job-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    color: white;
+  }
+  
+  .job-card {
+    background-color: #2e6fb0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    margin-top: 100px;
+  }
+  
+  .job-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .job-card h3 {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+  }
+  
+  .job-card p {
+    font-size: 1rem;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .section { /* Replace with the class of the section containing the button */
+    text-align: center; /* Centers the button horizontally */
+}
+
+.job-apply-button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Centers the button horizontally */
+  padding: 20px 0; /* Optional: adds some vertical spacing */
+}
+
+  
+  .apply-button:hover {
+    background-color: #008000;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+.search-form button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #008000;
+}
+
+/* Parent container that holds the button */
+.job-apply-container {
+  display: flex;            /* Use Flexbox layout */
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */        /* Full height of the viewport (or adjust as needed) */
+}
+
+/* Button styling */
+.job-apply-button {
+  padding: 10px 20px;     /* Add some padding */
+  font-size: 16px;        /* Increase font size */
+  color: white;           /* Text color */
+  background-color: #003366; /* Button background color */
+  border: none;           /* Remove border */
+  border-radius: 5px;     /* Rounded corners */
+  cursor: pointer;         /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Button hover effect */
+.job-apply-button:hover {
+  background-color: #008000; /* Darker shade on hover */
+}
+
+/* Button disabled state styling */
+.job-apply-button:disabled {
+  background-color: #003366; /* Gray background for disabled state */
+  cursor: not-allowed;       /* Change cursor to indicate it's not clickable */
+}

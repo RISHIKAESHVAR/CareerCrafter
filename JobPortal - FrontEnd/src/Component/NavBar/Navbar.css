@@ -1,0 +1,104 @@
+.navbar {
+    background-color: #003366; /* Dark blue background for the navbar */
+    padding: 15px 100px;
+    padding-bottom: 20px; /* Padding for the navbar */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar-logo-image {
+    height: 80px; /* Adjust the logo size */
+    margin-right: 10px; /* Space between logo and company name */
+    margin-left: 30px;
+}
+
+.company-name {
+    color: white;
+    font-size: 24px; /* Adjust the font size */
+    font-family:cursive;
+    font-weight: 1000;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-item {
+    margin: 0 20px;
+}
+
+.navbar-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar-item a:hover {
+    color: #f0f0f0; /* Lighter shade on hover */
+}
+
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.register-button{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff; /* Blue background for buttons */
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+
+}
+.login-button,
+.post-job-button {
+    color: white;
+    background-color: #008000; /* Blue background for buttons */
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.profile-icon {
+    color: #008000;
+    margin-left: 20px;
+}
+
+.logout-button {
+    color: white;
+    background-color: #008000; /* Blue background for buttons */
+    border: none;
+    padding: 10px 20px;
+    margin-left: 50px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover{
+    background-color: #c52b2b;
+}

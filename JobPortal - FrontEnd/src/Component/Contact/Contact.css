@@ -1,0 +1,172 @@
+/* Contact.css */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ddeeff; /* Light background for contrast */
+   
+}
+
+/* Main container for the contact page */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px; /* Added padding for better spacing */
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Single container to wrap all sections */
+.contact-wrapper {
+    background-color: #6ea1d4; /* White background for the form */
+    padding: 40px;
+    border-radius: 40px; /* Slightly rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    width: 100%;
+    max-width: 1200px; /* Maximum width for the container */
+    display: grid;
+    grid-template-areas: 
+      "contact-info contact-info"
+      "contact-form map";
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px; /* Gap between grid items */
+}
+
+/* Inner contact info container */
+.contact-info {
+    grid-area: contact-info;
+    text-align: center;
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-around; /* Space items evenly */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 20px; /* Gap between cards */
+}
+
+/* Center the title */
+.contact-info h1 {
+    text-align: center; /* Center text */
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700; /* Bold for the title */
+    width: 100%; /* Full width for centering */
+}
+
+
+/* Info card styles */
+.info-card {
+    background-color: #c9dff5; /* Light gray background for cards */
+    padding: 20px; /* Inner spacing for comfort */
+    border-radius: 5px; /* Rounded corners */
+    flex: 1 1 30%; /* Flex-grow, flex-shrink, and basis for responsive behavior */
+    max-width: 250px; /* Max width for cards */
+    text-align: center; /* Align text to the left */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for cards */
+}
+
+/* Card icon styles */
+.icon {
+    font-size: 27px; /* Icon size */
+    color: #003366; /* Icon color */
+    margin-bottom: 10px;
+    text-align: center; /* Space below icon */
+}
+
+.contact-info p {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Map container */
+.map {
+    grid-area: map;
+    text-align: center;
+}
+
+.map h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700; /* Bold for location title */
+}
+
+/* Map iframe styles */
+.map iframe {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Inner contact form container */
+.contact-form {
+    grid-area: contact-form;
+    text-align: center;
+}
+
+.contact-form h2 {
+    color: #333; /* Darker color for better contrast */
+    margin-bottom: 20px; /* Space below heading */
+    font-size: 30px; /* Increased font size for emphasis */
+    font-weight: 700; /* Bold for form title */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Space between input fields */
+
+}
+
+/* Shared styles for input and textarea */
+.form-group input, 
+.form-group textarea {
+    width: 100%; /* Full width */
+    padding: 15px; /* Inner spacing for comfort */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Consistent font size */
+    transition: border-color 0.3s ease; /* Smooth border transition */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    
+}
+
+/* Focus effect for inputs */
+.form-group input:focus, 
+.form-group textarea:focus {
+    border-color: #09c131; /* Highlight border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Button styles */
+.submit-button {
+    background-color: #003366;
+    color: #ffffff; /* White text color */
+    border: none; /* No border */
+    padding: 15px; /* Inner spacing */
+    font-size: 18px; /* Button text size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 100%; /* Full width button */
+    transition: background-color 0.3s ease; /* Smooth background change */
+    margin-top: 10px; /* Space above button */
+    text-transform: uppercase; /* Uppercase text */
+    font-weight: 600; /* Bold text */
+}
+
+/* Button hover effect */
+.submit-button:hover {
+    background-color: #008000; /* Darker shade on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+    .contact-wrapper {
+        grid-template-areas: 
+          "contact-info"
+          "contact-form"
+          "map";
+        grid-template-columns: 1fr;
+    }
+
+    .info-card {
+        max-width: 100%; /* Full width on smaller screens */
+    }
+}

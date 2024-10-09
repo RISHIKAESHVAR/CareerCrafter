@@ -1,0 +1,64 @@
+/* PostJob.css */
+
+.post-job-container {
+    max-width: 600px; /* Limit the width for better readability */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Add some padding inside the container */
+    border: 1px solid #ddd; /* Light border around the container */
+    border-radius: 25px; /* Slightly rounded corners */
+    background-color: #6ea1d4; /* Light background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.post-job-title {
+    font-size: 24px; /* Larger font for the title */
+    margin-bottom: 20px; /* Space below the title */
+    color: #333; /* Dark text color */
+    text-align: center; /* Center the title */
+}
+
+.post-job-form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.label {
+    font-weight: bold; /* Bold labels */
+    margin-bottom: 5px; /* Space below the label */
+}
+
+.input {
+    width: 100%; /* Full width inputs */
+    padding: 15px; /* Padding inside inputs */
+    border: 1px solid #ddd; /* Border around inputs */
+    border-radius: 4px; /* Slightly rounded corners for inputs */
+    font-size: 16px; /* Consistent font size */
+}
+
+.textarea {
+    resize: vertical; /* Allow vertical resizing only */
+}
+
+.submit-button {
+    padding: 10px; /* Padding inside button */
+    background-color: #003366; /* Primary color for the button */
+    color: white; /* Text color for the button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners for button */
+    font-size: 16px; /* Consistent font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.submit-button:hover {
+    background-color: #008000; /* Darker shade on hover */
+}
+
+.error-message {
+    color: red; /* Error message color */
+    margin-top: 10px; /* Space above the error message */
+}

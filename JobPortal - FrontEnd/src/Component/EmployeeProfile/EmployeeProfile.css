@@ -1,0 +1,65 @@
+/* EmployeeProfile.css */
+
+.profile-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6ea1d4; /* Light grey background */
+  padding: 30px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  margin: 0 auto; /* Center the container horizontally */
+  margin-top: 50px;
+  text-align: center;
+}
+
+.profile-form-container h2 {
+  color: #003366; /* Dark blue color */
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between icon and text */
+}
+
+.profile-input {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.profile-input:focus {
+  border-color: #00b074; /* Green border on focus */
+}
+
+.profile-button {
+  background-color: #003366; /* Dark blue background */
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Space between icon and text */
+}
+
+.profile-button:hover {
+  background-color: #008000; /* Green background on hover */
+}
+
+.tick-mark {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between icon and text */
+  margin-top: 20px;
+  color: green;
+}

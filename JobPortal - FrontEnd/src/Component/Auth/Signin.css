@@ -1,0 +1,82 @@
+/* SignIn.css */
+
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left; /* Center the container content */
+    background-color: #6ea1d4;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin: 0 auto; /* Center the container horizontally */
+    margin-top: 100px;
+    text-align: center;
+}
+
+.signin-container h1 {
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+    width: 100%; /* Full width for input containers */
+    display: flex;
+    flex-direction: column; /* Align children in a column */
+    align-items: flex-start; /* Align children to the left */
+}
+
+.input-container input {
+    width: 100%; /* Full width for inputs */
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.input-container input:focus {
+    border-color: #00b074;
+}
+
+.input-container label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333; /* Darker text color for labels */
+}
+
+.input-container select {
+    width: 100%; /* Full width for the select dropdown */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white; /* White background */
+    cursor: pointer;
+    margin-top: 8px; /* Space between label and select */
+}
+
+.input-container select:hover,
+.input-container select:focus {
+    border-color: #aaa; /* Darker border on hover and focus */
+    outline: none; /* Remove default outline */
+}
+
+.signin-button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Added margin for spacing */
+}
+
+.signin-button:hover {
+    background-color: #008000;
+}
+

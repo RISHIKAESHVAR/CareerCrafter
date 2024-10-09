@@ -1,0 +1,62 @@
+.manage-application-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.application-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.application-table th,
+.application-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.application-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.application-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.application-table th,
+.application-table td {
+  text-align: left;
+  padding: 12px;
+}
+
+.application-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.application-table td {
+  vertical-align: top;
+}
+
+/* Status styles */
+.status-approved {
+  color: green;
+}
+
+.status-pending {
+  color: blue;
+}
+
+.status-rejected {
+  color: red;
+}
